@@ -22,7 +22,25 @@
   --able-lavender: #d5b3ff;
   --able-blue: #0000ff;
 }
+/* custom classes for certain elements */
+.list-item{
+  margin-right: .3125rem;
+  margin-left: .3125rem;
+}
+.orange-text{
+  color: var(--able-red)
+}
+.blue-text{
+  color: var(--able-blue);
+}
+.account-text{
+  font-size: .987rem;
+  margin-left: .652rem;
+  position: relative;
+  top: 1px;
+}
 
+/* Global settings */
 *{
   margin: 0;
   padding: 0;
@@ -50,6 +68,9 @@ a{
 header{
   padding: 1.5em;
 }
+
+/* Main styles */
+
 .nav-primary{
   display: flex;
   font-size: 1.2rem;
@@ -57,9 +78,9 @@ header{
 }
 .nav-primary-elements{
   display: flex;
-  gap: 1.2em;
+  gap: 1em;
   padding-bottom: 1.50em;
-  padding-left: 8.75rem;
+  padding-left: 3.75rem;
 }
 .nav-primary-elements-right{
   display: flex;
