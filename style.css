@@ -40,6 +40,10 @@
   top: 1px;
 }
 
+.bg-blue{
+  background-color:var(--able-blue);
+}
+
 *::selection{
   background: blue;
   color: #FFF;
@@ -75,6 +79,10 @@ a{
 }
 header{
   margin-top: 1.25em;
+}
+img{
+  max-width: 100%;
+  border: 0;
 }
 
 /* Main styles */
@@ -213,5 +221,55 @@ header{
   background-position: 50% 50%;
   background-image: url("https://ableton-production.imgix.net/about/photo-2.jpg?dpr=1.94&fit=crop&h=331&ixjsv=1.1.3&q=51&w=441");
 }
+.abl-relative{
+  position: relative;
+}
+.abl-ratio-16-9{
+  box-sizing: content-box;
+  padding-bottom: 56.25%;
+}
+.abl-ratio-fill{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.abl-center-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abl-circle{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  padding: 0;
+  left: 0;
+  border-radius: 60%;
+}
+.abl-circle-icon{
+position: absolute;
+    top: 2.0625rem;
+    left: 2.4375rem;
+    width: 1.875rem;
+    height: 2.125rem;
+}
+.abl-z-1{
+  z-index: 1;
+}
+.abl-cl-white{
+  color: rgb(254, 254, 254);
+}
+.media{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
 
 
