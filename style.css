@@ -224,6 +224,9 @@ img{
 .abl-relative{
   position: relative;
 }
+.abl-absolute{
+  position: absolute;
+}
 .abl-ratio-16-9{
   box-sizing: content-box;
   padding-bottom: 56.25%;
@@ -234,6 +237,12 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
+}
+.abl-absolute-fill{
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
 }
 
 .abl-center-content{
@@ -249,7 +258,6 @@ img{
   justify-content: center;
   min-height: 0;
   padding: 0;
-  left: 0;
   border-radius: 60%;
 }
 .abl-circle-icon{
@@ -269,6 +277,10 @@ position: absolute;
   margin-left: auto;
   margin-right: auto;
   width: 50vw;
+}
+.abl-circle--100-ml{
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 
